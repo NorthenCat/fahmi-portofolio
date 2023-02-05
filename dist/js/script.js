@@ -37,6 +37,7 @@ image.addEventListener("mouseout", function () {
   image.style.transform = "none";
 });
 
+// Automate Scrolling When HREF
 $(document).ready(function () {
   $('a[href^="#"]').on("click", function (e) {
     e.preventDefault();

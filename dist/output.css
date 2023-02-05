@@ -971,6 +971,10 @@ video {
   transition-duration: 300ms;
 }
 
+.duration-100 {
+  transition-duration: 100ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
 }
@@ -1078,11 +1082,6 @@ video {
 .focus\:ring-primary:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(130 170 227 / var(--tw-ring-opacity));
-}
-
-.group:hover .group-hover\:text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(130 170 227 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
