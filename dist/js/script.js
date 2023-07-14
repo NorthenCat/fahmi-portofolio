@@ -11,7 +11,6 @@ window.onscroll = function () {
 };
 
 // Navlist-Line
-const hamburger = document.querySelector("#navlist");
 const navbar = document.querySelector("#navbar");
 
 navlist.addEventListener("click", function () {
